@@ -55,7 +55,25 @@ Before reporting completion to the user:
   1. Strip accidental secrets, uncommitted local `.env` files, database dumps, and heavy test artifacts (`playwright-report/`).
   2. Verify all CI pipelines, test suites, and production builds pass 100%.
   3. Squash merge with linked `Fixes #<issue>` semantics.
-- **Action CI Hygiene:** Escape multi-line script strings cleanly in GitHub Actions YAML; avoid CodeQL on private free tier repositories (HTTP 403) and enforce Gitleaks.
+- **YAML multiline hygiene:** Escape multi-line script strings cleanly in GitHub Actions YAML; avoid CodeQL on private free tier repositories (HTTP 403) and enforce Gitleaks.
+
+## 11. Skills Sync to hz-skills (`hz-skills-sync`)
+**When any of the following are created or modified, immediately commit and push to `hzpunk/hz-skills`:**
+- A new **skill** (`SKILL.md`) in `skills/`
+- A new or updated **global rule** in `rules/`
+- A new or updated **subagent** (`.md`) in `agents/`
+- A new **MCP server** integration, tool reference, or capability reference
+- A new **GEMINI.md** rule addition
+
+**Sync protocol:**
+```bash
+cd ~/.gemini/config/plugins/hz-rules-plugin
+git add -A
+git commit -m "feat(skills|rules|agents): <short description>"
+git push
+```
+
+**This repository is the single source of truth for all HZ agent capabilities.** Any skill or rule that lives only on the local machine is considered incomplete until pushed.
 
 
 
