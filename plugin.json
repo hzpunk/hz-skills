@@ -1,0 +1,42 @@
+{
+  "name": "hz-rules-plugin",
+  "version": "1.1.0",
+  "description": "HZ unified skills, agents and rules library for Antigravity AI agent",
+  "author": "hzpunk",
+  "repository": "https://github.com/hzpunk/hz-skills",
+  "contributors": [
+    "@hzpunk",
+    "@VladislavSCV"
+  ],
+  "skills": [
+    "skills/dev",
+    "skills/boardroom",
+    "skills/hz-rules",
+    "skills/hz-master",
+    "skills/hz-orchestrator",
+    "skills/ui-master",
+    "skills/hz-forms-anti-bot",
+    "skills/seo-crawler-audit",
+    "skills/seo-geo-optimization",
+    "skills/deeptech-rd",
+    "skills/businessma"
+  ],
+  "agents": [
+    "agents/boardroom-ai.md",
+    "agents/boardroom-backend.md",
+    "agents/boardroom-cfo.md",
+    "agents/boardroom-ciso.md",
+    "agents/boardroom-clo.md",
+    "agents/boardroom-cmo.md",
+    "agents/boardroom-cpo.md",
+    "agents/boardroom-cro.md",
+    "agents/boardroom-data.md",
+    "agents/boardroom-devops.md",
+    "agents/boardroom-frontend.md",
+    "agents/boardroom-ux.md"
+  ],
+  "rules": [
+    "rules/autonomous-dev-engine.md",
+    "rules/token-economy.md"
+  ]
+}
