@@ -44,6 +44,11 @@ description: >-
   2. **НЕ отправляет уведомления** (Telegram-боты, email, CRM, Webhook).
   3. Логирует факт спам-атаки в `console.warn` для аналитики.
 
+### 6. Edge WAF, Datacenter ASN & Scraper Shield (Инвариант PatronView)
+- **Блокировка датацентровых ASN**: В правилах Cloudflare WAF блокировать или челенджить трафик с датацентровых сетей (AS16509 AWS, AS14061 DigitalOcean, AS24940 Hetzner, AS16276 OVH) на мутирующих роутах (`/api/*`).
+- **Блокировка AI-скраперов**: Блокировать известных агрессивных ботов (`Bytespider`, `GPTBot`, `ClaudeBot`, `CCBot`) на динамических маршрутах.
+- **Managed Challenge (Cloudflare Turnstile)**: Для подозрительного или внешнего трафика применять невидимый Turnstile перед приемом чувствительных форм (0 капч для людей, 100% отсечение headless-скриптов).
+
 ---
 
 ## Эталонная Реализация

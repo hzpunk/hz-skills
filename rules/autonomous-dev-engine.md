@@ -75,5 +75,11 @@ git push
 
 **This repository is the single source of truth for all HZ agent capabilities.** Any skill or rule that lives only on the local machine is considered incomplete until pushed.
 
+## 12. Multi-Layer Bot & Scraper Defense (`hz-bot-shield` / PatronView Invariant)
+- **Edge WAF & ASN Filtering:** Block or challenge datacenter ASNs (AWS, Hetzner, DigitalOcean, OVH) on mutating API endpoints (`/api/*`). Legitimate end-users connect via mobile and residential ISPs.
+- **AI-Scraper & Rogue Crawler Blocking:** Proactively block aggressive AI scrapers (`Bytespider`, `GPTBot`, `ClaudeBot`, `CCBot`) to protect confidential user prompts and knowledge bases.
+- **Geo-fencing & Managed Challenges:** For regional Russian/CIS services (152-ФЗ compliance), enforce invisible Cloudflare Turnstile (`Managed Challenge`) on foreign/suspicious traffic, mitigating headless bots without annoying humans with CAPTCHAs.
+- **Telemetry Isolation (Client Events vs Raw Server Logs):** Construct product funnels strictly from authenticated client browser events (JS/Client events), insulating business metrics from distorted raw server logs where up to 99% of requests are bots.
+
 
 
