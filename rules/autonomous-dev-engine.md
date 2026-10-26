@@ -116,7 +116,7 @@ git push
 - **Доступность и UI:** Дизайн-токены темы без хардкода, обязательная доступность WCAG 2.2 AA (axe checks), `LazyMotion` для оптимизации размера бандла (<210 KiB gzip), уважение системной настройки `prefers-reduced-motion`.
 
 ## 17. Multi-Agent CLI Orchestration & Token Economy (`hz-cli-runners-orchestration`)
-- **Разрешенные бесплатные CLI-раннеры:** Для рутинного кодинга, тестов, рефакторинга и фоновой автоматизации разрешено и рекомендуется делегировать задачи бесплатным CLI-агентам: `gemini` (1 000 бесплатных запросов/день от Google), `copilot` (GitHub Copilot CLI), `goose` (Block Goose с Codestral/MCP), `opencode` (свободные промо-модели), `mimo` (Xiaomi Mimocode с MCP), `qoder` (Qoder CLI с MCP), `q` (Amazon Q Developer через AWS Builder ID), `aider` (с бесплатными/локальными моделями Ollama/LM Studio или промо Qwen).
+- **Разрешенные бесплатные CLI-раннеры:** Для рутинного кодинга, тестов, рефакторинга и фоновой автоматизации разрешено и рекомендуется делегировать задачи бесплатным CLI-агентам: `gemini` (1 000 бесплатных запросов/день от Google), `copilot` (GitHub Copilot CLI), `vibe` (Mistral Vibe CLI с Codestral/MCP), `goose` (Block Goose с Codestral/MCP), `opencode` (свободные промо-модели), `mimo` (Xiaomi Mimocode с MCP), `qoder` (Qoder CLI с MCP), `q` (Amazon Q Developer через AWS Builder ID), `aider` (с бесплатными/локальными моделями Ollama/LM Studio или промо Qwen).
 - **СТРОГИЙ ЗАПРЕТ НА АВТОМАТИЧЕСКИЙ ВЫЗОВ CLAUDE:** Категорически запрещено автоматически вызывать или тратить платные токены `claude` (Claude Code) без прямого явного указания пользователя в текущем запросе.
 - **Единый центр задач:** Все используемые CLI-раннеры обязаны быть интегрированы с единым тактическим центром задач `hz-planner` через MCP.
 
