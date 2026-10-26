@@ -81,5 +81,15 @@ git push
 - **Geo-fencing & Managed Challenges:** For regional Russian/CIS services (152-ФЗ compliance), enforce invisible Cloudflare Turnstile (`Managed Challenge`) on foreign/suspicious traffic, mitigating headless bots without annoying humans with CAPTCHAs.
 - **Telemetry Isolation (Client Events vs Raw Server Logs):** Construct product funnels strictly from authenticated client browser events (JS/Client events), insulating business metrics from distorted raw server logs where up to 99% of requests are bots.
 
+## 13. HZ Weekly Planner MCP Server (`hz-planner-mcp`)
+- **Автономный трекер задач:** Все AI-агенты и нейросети (Antigravity, Cursor, Claude, Jules) используют единый локальный MCP-сервер `hz-planner-mcp` (`~/.local/bin/hz-planner-mcp` или `HZWeekPlannerApp --mcp`) для отслеживания и реализации задач по 7 проектам (typeGO, Т-Банк Хакатон, Frazly, HZ.Support, Юристы, Психологи psycu, SVO, Planner).
+- **Инструменты агента:**
+  - `planner_list_tasks`: чтение задач с фильтрацией по проекту, дню, статусу, приоритету.
+  - `planner_get_weekly_plan`: чтение сводного тактического плана в Markdown.
+  - `planner_create_task`: постановка новых задач с привязкой к репозиторию GitHub и календарю.
+  - `planner_update_task` / `planner_toggle_status`: перевод в `inProgress` перед началом и `done` после 100% тестов.
+  - `planner_get_projects`: список отслеживаемых репозиториев и их ролей.
+
+
 
 
