@@ -22,13 +22,19 @@ description: "Use when starting any development, refactoring, bugfix, or feature
 - Изучить связанные инварианты и антипаттерны (`[[anti-pattern-...]]`, `[[rule-...]]`), чтобы гарантированно не повторить прошлых ошибок.
 - **Тактический трекинг (`hz-planner-sync`):** Запросить актуальные задачи недели через MCP-сервер `hz-planner` (`planner_list_tasks` по проекту или `planner_get_weekly_plan`). Перед началом работы перевести задачу в статус `inProgress` (`planner_update_task` / `planner_toggle_status`).
 
-### Этап 0.1. Предпроектный Конвейер Boardroom & GitHub Orchestration (Стандарт запуска любого проекта)
+### Этап 0.1. Предпроектный Конвейер Boardroom, HZ Foundation & GitHub Orchestration (Стандарт запуска любого проекта)
 Для любого нового проекта / венчура / крупного продукта перед началом разработки ОБЯЗАТЕЛЬНО разворачивается полный комплекс:
-1. **Пакет Документации Boardroom (`docs/boardroom/`):**
+1. **Инженерный фундамент HZ Foundation (`hz-foundation-standard`):**
+   - Все веб-проекты (Landing, Store, Platform) опираются на архитектурную основу `hz_foundation` (`https://github.com/hzpunk/hz_foundation`, локальный путь: `~/Downloads/hz_foundation`).
+   - Лендинги: строго статический экспорт (Static Export + Nginx) без Node.js runtime на проде.
+   - Магазины и Платформы: SQLite + Drizzle ORM (`@johann1s/db` via libSQL) по умолчанию с автоматизированными бэкапами и миграциями; PostgreSQL только как опциональный адаптер.
+   - Браузерная телеметрия, сбор лидов и Telegram-уведомления: строго через общий `hz-gateway`. Запрещено передавать секреты сервера (`SITE_TRACKING_TOKEN`) в клиентский код.
+   - Генерация проектов: композиция базового шаблона (`templates/base`), типа проекта (`landing`, `store`, `platform`) и модулей (`features/*`) через CLI `hz create` / `hz deploy`.
+2. **Пакет Документации Boardroom (`docs/boardroom/`):**
    - 7 сквозных артефактов: `01-PRD-AND-HYPOTHESIS.md` (Lean Canvas, Mom Test, RICE), `02-FINANCIAL-UNIT-MODEL.md` (LTV/CAC >= 3:1, Runway > 12 мес), `03-LEGAL-CLEARANCE-152FZ.md` (152-ФЗ, РИД ст. 1295 ГК РФ, оферта), `04-ADR-AND-DATA-CONTRACTS.md` (PostgreSQL DDL, REST API, Next.js, Redis), `05-SECURITY-THREAT-MODEL.md` (STRIDE, hz-forms-anti-bot), `06-UX-HEURISTIC-AUDIT.md` (Nielsen 10, WCAG 2.2 AA), `07-GTM-SALES-PLAYBOOK.md` (AARRR, скрипты).
    - Сквозные регламенты `docs/BUSINESS-PROCESSES-AND-SOP.md`.
    - Компиляция сводного досье `00-EXECUTIVE-DOSSIER.md` + `.html` и интерактивного дашборда `00-EXECUTIVE-DASHBOARD.html` через `hz export`.
-2. **Инфраструктура GitHub:**
+3. **Инфраструктура GitHub:**
    - Создание приватного репозитория `gh repo create` и привязка ветки `main`.
    - Разметка 5 вех (Milestones) с жесткими календарными дедлайнами.
    - Декомпозиция задач в GitHub Issues со строгими критериями приемки, лейблами (P0/P1, legal, safety, growth) и назначением исполнителей.
@@ -42,7 +48,7 @@ description: "Use when starting any development, refactoring, bugfix, or feature
      * `.github/ISSUE_TEMPLATE/` (YAML-шаблоны тикетов).
      * `SECURITY.md` и `.gitignore`.
      * Создание окружений `staging` и `production` с эталоном `.env.example`.
-3. **Автономное плечо Google Jules:**
+4. **Автономное плечо Google Jules:**
    - Интеграция `.github/workflows/jules-automation.yml`: реактивный запуск по метке `jules`, генерация тестов по `needs-tests`, еженедельный крон ночной оптимизации кода и БД.
    - Делегирование автономного написания кода, миграций Neon и сидирования.
 
