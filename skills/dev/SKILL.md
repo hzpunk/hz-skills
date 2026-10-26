@@ -16,10 +16,11 @@ description: "Use when starting any development, refactoring, bugfix, or feature
 
 ## 5 Обязательных Этапов Исполнения:
 
-### Этап 0. Консультация с Базой Знаний Zettelkasten
+### Этап 0. Консультация с Базой Знаний Zettelkasten и Тактический Планнер
 Перед написанием кода обязательно выполнить:
 - Запрос к семантической памяти: `hz vault query "<суть задачи>"`
 - Изучить связанные инварианты и антипаттерны (`[[anti-pattern-...]]`, `[[rule-...]]`), чтобы гарантированно не повторить прошлых ошибок.
+- **Тактический трекинг (`hz-planner-sync`):** Запросить актуальные задачи недели через MCP-сервер `hz-planner` (`planner_list_tasks` по проекту или `planner_get_weekly_plan`). Перед началом работы перевести задачу в статус `inProgress` (`planner_update_task` / `planner_toggle_status`).
 
 ### Этап 0.1. Предпроектный Конвейер Boardroom & GitHub Orchestration (Стандарт запуска любого проекта)
 Для любого нового проекта / венчура / крупного продукта перед началом разработки ОБЯЗАТЕЛЬНО разворачивается полный комплекс:
@@ -76,5 +77,6 @@ description: "Use when starting any development, refactoring, bugfix, or feature
 1. Запустить состязательный аудит `hz review` и пре-коммит шлюз `hz check`.
 2. Запустить полную производственную сборку (`npm run build`).
 3. Если в процессе был получен новый опыт или исправлена ошибка — зафиксировать через `hz learn`.
-4. Сделать Git Commit сразу после успеха (`hz commit` по правилу `hz-commit-after-global`).
-5. Предоставить краткий отчёт по факту без лишней теории (`hz-brief-responses`).
+4. **Синхронизация Планнера (`hz-planner-sync`):** Перевести закрытую задачу в статус `done` через MCP `planner_update_task` / `planner_toggle_status`.
+5. Сделать Git Commit сразу после успеха (`hz commit` по правилу `hz-commit-after-global`).
+6. Предоставить краткий отчёт по факту без лишней теории (`hz-brief-responses`).
