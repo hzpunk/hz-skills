@@ -19,7 +19,9 @@
 
 | Skill | Description |
 |-------|-------------|
-| `skills/dev` | HZ Deep Dev Protocol: TDD, 100% coverage, Boardroom gates, GitHub M1–M5 |
+| `skills/venture` | Master pipeline: from Idea & PRD to Scrollytelling, Live Telegram Gateway, B2B sales, and hz-planner |
+| `skills/dev` | HZ Deep Dev Protocol: TDD, UB-Mode (CRAP < 10), No-Mistakes zero-slop gate, Boardroom gates |
+| `skills/stealth-prospecting` | Autonomous B2B client hunting and cold outreach via Stealth Browser (Cloudflare Turnstile bypass) |
 | `skills/boardroom` | Full autonomous venture cycle: PRD → CFO → CLO → CTO → UX → GTM |
 | `skills/hz-scrollytelling` | Interactive scrollytelling, Canvas image sequence, Sticky pin, Parallax, Reveal, GSAP + ScrollTrigger, Lottie |
 | `skills/hz-ui-craft` | Anti-slop visual craft, Apple fluid motion (WWDC), Impeccable surface modes, DesignSystems.one tokens & WCAG 2.2 AA |
