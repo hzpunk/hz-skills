@@ -21,6 +21,9 @@
 |-------|-------------|
 | `skills/dev` | HZ Deep Dev Protocol: TDD, 100% coverage, Boardroom gates, GitHub M1–M5 |
 | `skills/boardroom` | Full autonomous venture cycle: PRD → CFO → CLO → CTO → UX → GTM |
+| `skills/hz-scrollytelling` | Interactive scrollytelling, Canvas image sequence, Sticky pin, Parallax, Reveal, GSAP + ScrollTrigger, Lottie |
+| `skills/hz-ui-craft` | Anti-slop visual craft, Apple fluid motion (WWDC), Impeccable surface modes, DesignSystems.one tokens & WCAG 2.2 AA |
+| `skills/hz-marketing` | High-conversion CRO, Elaya Design 1-offer framework, anti-AI humanization, Corey Haines growth suite router |
 | `skills/hz-rules` | Global HZ design & development rules reference |
 | `skills/hz-master` | Master orchestrator — activates superpowers & hz-rules automatically |
 | `skills/hz-orchestrator` | Multi-agent orchestration with grand unified skill atlas |

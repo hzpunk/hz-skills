@@ -1,6 +1,6 @@
 {
   "name": "hz-rules-plugin",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "HZ unified skills, agents and rules library for Antigravity AI agent",
   "author": "hzpunk",
   "repository": "https://github.com/hzpunk/hz-skills",
@@ -11,6 +11,9 @@
   "skills": [
     "skills/dev",
     "skills/boardroom",
+    "skills/hz-scrollytelling",
+    "skills/hz-ui-craft",
+    "skills/hz-marketing",
     "skills/hz-rules",
     "skills/hz-master",
     "skills/hz-orchestrator",
