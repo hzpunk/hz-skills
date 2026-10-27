@@ -54,6 +54,11 @@
 | `boardroom-devops` | Staff DevOps & SRE |
 | `boardroom-frontend` | Staff Frontend & Client Architecture |
 | `boardroom-ux` | Principal UX Evaluator |
+| `boardroom-motion` | Chief Motion Director & Scrollytelling Engineer (GSAP, Canvas Scrub, 120fps) |
+| `boardroom-secops` | Staff DevSecOps & Red Team Pentester (Nuclei, FRP, Bot Shields, 152-ФЗ) |
+| `boardroom-native` | Staff Mobile & Cross-Platform Architect (Swift, Realm, Dioxus, Flutter) |
+| `boardroom-deeptech` | Chief Scientist & Quantitative Systems Architect (PyBroker, Biometrics, DeepSeek) |
+| `cli-orchestrator` | Free CLI Runners Autonomous Dispatcher (Goose, Vibe, Gemini, Copilot, Q) |
 
 ---
 

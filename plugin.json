@@ -36,7 +36,12 @@
     "agents/boardroom-data.md",
     "agents/boardroom-devops.md",
     "agents/boardroom-frontend.md",
-    "agents/boardroom-ux.md"
+    "agents/boardroom-ux.md",
+    "agents/boardroom-motion.md",
+    "agents/boardroom-secops.md",
+    "agents/boardroom-native.md",
+    "agents/boardroom-deeptech.md",
+    "agents/cli-orchestrator.md"
   ],
   "rules": [
     "rules/autonomous-dev-engine.md",

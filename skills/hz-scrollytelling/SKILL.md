@@ -313,3 +313,122 @@ export function LottieScrollScrub({ animationData }: { animationData: any }) {
   return <div ref={containerRef} className="w-64 h-64 mx-auto" />;
 }
 ```
+
+---
+
+### Рецепт 5: Интерактивный 3D-просмотр на Babylon.js с привязкой к скроллу
+
+```tsx
+"use client";
+
+import React, { useEffect, useRef } from "react";
+import { Engine, Scene, ArcRotateCamera, Vector3, HemisphericLight, MeshBuilder } from "@babylonjs/core";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
+export function Babylon3DScrollVisualizer() {
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!canvasRef.current) return;
+
+    const engine = new Engine(canvasRef.current, true, { preserveDrawingBuffer: true, stencil: true });
+    const scene = new Scene(engine);
+    scene.clearColor.set(0, 0, 0, 0); // Прозрачный фон под тему
+
+    const camera = new ArcRotateCamera("camera", -Math.PI / 2, Math.PI / 2.5, 4, Vector3.Zero(), scene);
+    camera.attachControl(canvasRef.current, false); // Управление скроллом, а не драгом
+
+    const light = new HemisphericLight("light", new Vector3(0, 1, 0), scene);
+    light.intensity = 0.9;
+
+    // Замените на SceneLoader.ImportMeshAsync для загрузки GLTF/GLB модели
+    const box = MeshBuilder.CreateBox("model", { size: 1.8 }, scene);
+
+    engine.runRenderLoop(() => {
+      scene.render();
+    });
+
+    const trigger = ScrollTrigger.create({
+      trigger: containerRef.current,
+      start: "top top",
+      end: "+=2000",
+      pin: canvasRef.current,
+      scrub: 1,
+      onUpdate: (self) => {
+        // Поворот 3D-модели от прогресса скролла
+        box.rotation.y = self.progress * Math.PI * 2;
+        box.rotation.x = Math.sin(self.progress * Math.PI) * 0.5;
+      },
+    });
+
+    const handleResize = () => engine.resize();
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+      trigger.kill();
+      scene.dispose();
+      engine.dispose();
+    };
+  }, []);
+
+  return (
+    <div ref={containerRef} className="relative w-full h-[2500px]">
+      <canvas ref={canvasRef} className="sticky top-10 mx-auto w-full max-w-3xl h-[60vh] outline-none" />
+    </div>
+  );
+}
+```
+
+---
+
+### Рецепт 6: Микро-награда при конверсии через mo.js (CTA Burst Effect)
+
+```tsx
+"use client";
+
+import React, { useRef } from "react";
+// @ts-ignore
+import mojs from "@mojs/core";
+
+export function ConversionBurstButton({ children, onClick }: { children: React.ReactNode; onClick?: () => void }) {
+  const btnRef = useRef<HTMLButtonElement>(null);
+
+  const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = rect.left + rect.width / 2;
+    const y = rect.top + rect.height / 2;
+
+    const burst = new mojs.Burst({
+      left: x,
+      top: y,
+      radius: { 20: 80 },
+      count: 10,
+      children: {
+        shape: "circle",
+        radius: { 6: 0 },
+        fill: ["#3b82f6", "#10b981", "#f59e0b", "#ec4899"],
+        duration: 800,
+        easing: "cubic.out",
+      },
+    });
+
+    burst.play();
+    onClick?.();
+  };
+
+  return (
+    <button
+      ref={btnRef}
+      onClick={handleClick}
+      className="relative px-8 py-4 rounded-2xl bg-primary text-primary-foreground font-semibold shadow-lg hover:shadow-xl active:scale-95 transition-all duration-150"
+    >
+      {children}
+    </button>
+  );
+}
+```
