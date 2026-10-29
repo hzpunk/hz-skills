@@ -29,6 +29,7 @@
 | `skills/deepseek-local` | Complete Russian guide for local DeepSeek-R1 / V3 deployment: Ollama, vLLM, GGUF/AWQ quantization, hardware sizing, and fast inference. |
 | `skills/deeptech-rd` | Use when conducting applied science and deeptech research, commercial R&D scouting, in silico cabinet validation (Pre-TEA), designing killer experiments (TRL 1-7), target costing, techno-economic assessments (TEA), or synchronizing science, engineering, and unit economics across TRL, MRL, and IRL matrices. |
 | `skills/designsystems-tokens` | Production design token architecture: 3-tier token hierarchy (primitive -> semantic -> component), CSS variables, and dark/light modes. |
+| `skills/investor-readiness` | 100 Venture Capital & Investor Pitch Practices: Pitch Deck, Cap Table, VDR, Due Diligence |
 | `skills/dev` | Use when starting any development, refactoring, bugfix, or feature task with 100% test coverage, strict TDD, Boardroom quality gates, edge-case audit, and production build verification. Triggers the HZ Deep Dev Protocol. |
 | `skills/dioxus-web` | Full-stack Rust reactive UI development for Web (WASM), Desktop, and Mobile with Dioxus 0.5/0.6: signals, RSX, server functions, and SSR. |
 | `skills/face-recognition` | On-device biometric face recognition, liveness detection, anti-spoofing, and 1:1 / 1:N facial matching across mobile, desktop, and server. |
@@ -88,6 +89,7 @@
 | `boardroom-frontend` | Staff Frontend & Client Architecture |
 | `boardroom-ux` | Principal UX Evaluator |
 | `boardroom-motion` | Chief Motion Director & Scrollytelling Engineer (GSAP, Canvas Scrub, 120fps) |
+| `boardroom-ir` | Chief Investment Officer & Venture Pitch Lead (100 Investor Practices, VDR, Due Diligence) |
 | `boardroom-secops` | Staff DevSecOps & Red Team Pentester (Nuclei, FRP, Bot Shields, 152-ФЗ) |
 | `boardroom-native` | Staff Mobile & Cross-Platform Architect (Swift, Realm, Dioxus, Flutter) |
 | `boardroom-deeptech` | Chief Scientist & Quantitative Systems Architect (PyBroker, Biometrics, DeepSeek) |
