@@ -1,3 +1,8 @@
+---
+description: autonomous-dev-engine rules
+globs: "*"
+---
+
 # HZ Autonomous Development & Self-Evolution Protocol
 
 Whenever working on any development, bugfix, refactoring, or feature request in this project, the agent MUST automatically execute this full-cycle pipeline without waiting for manual commands:

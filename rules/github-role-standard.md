@@ -1,3 +1,8 @@
+---
+description: github-role-standard rules
+globs: "*"
+---
+
 # Ролевой стандарт GitHub Issue и декомпозиции вех (`hz-github-roles-standard`)
 
 ## Принципы и инварианты

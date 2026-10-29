@@ -1,3 +1,8 @@
+---
+description: token-economy rules
+globs: "*"
+---
+
 # Token Economy & Efficient Code Exploration Rules
 
 1. **Targeted Reading (No Full File Dumps):**
