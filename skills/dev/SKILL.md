@@ -57,6 +57,7 @@ description: "Use when starting any development, refactoring, bugfix, or feature
    - 10 эвристик Нильсена + WCAG 2.2 AA доступность.
    - Формы — строго модальные окна (`hz-forms-as-modals`).
    - Палитра — строго системные семантические токены темы без хардкода (`hz-theme-palette`).
+   - Полный запрет нативных системных компонентов (`<select>`, нестилизованные инпуты) в пользу кастомных (`CustomSelect` / Dropdown) (`hz-no-native-system-components`).
 2. **Архитектура & Бэкенд:**
    - Контракты API, схемы данных, идемпотентность мутирующих операций (`Idempotency-Key`).
 3. **Безопасность (CISO):**
