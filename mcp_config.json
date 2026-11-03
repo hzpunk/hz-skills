@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "hz-planner": {
+      "command": "/Users/hzpunk/.local/bin/hz-planner-mcp",
+      "args": []
+    },
+    "hz-memory": {
+      "command": "/Users/hzpunk/.local/bin/hz-memory-mcp",
+      "args": []
+    }
+  }
+}

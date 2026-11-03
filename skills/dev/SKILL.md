@@ -18,7 +18,7 @@ description: "Use when starting any development, refactoring, bugfix, or feature
 
 ### Этап 0. Консультация с Базой Знаний Zettelkasten и Тактический Планнер
 Перед написанием кода обязательно выполнить:
-- Запрос к семантической памяти: `hz vault query "<суть задачи>"`
+- Запрос к семантической памяти через MCP `hz-memory-mcp` (`memory_recall`, `memory_get_active_context`) или CLI: `hz vault query "<суть задачи>"`
 - Изучить связанные инварианты и антипаттерны (`[[anti-pattern-...]]`, `[[rule-...]]`), чтобы гарантированно не повторить прошлых ошибок.
 - **Тактический трекинг (`hz-planner-sync`):** Запросить актуальные задачи недели через MCP-сервер `hz-planner` (`planner_list_tasks` по проекту или `planner_get_weekly_plan`). Перед началом работы перевести задачу в статус `inProgress` (`planner_update_task` / `planner_toggle_status`).
 
@@ -105,7 +105,8 @@ description: "Use when starting any development, refactoring, bugfix, or feature
    - Прогон 100% тестов (`vitest run` / `pytest` / `cargo test`).
    - Прогон производственной сборки (`npm run build`).
    - Любая ошибка или предупреждение блокирует коммит до полного исправления.
-3. Если в процессе был получен новый опыт или исправлена ошибка — зафиксировать через `hz learn`.
+3. Если в процессе был получен новый опыт или архитектурное решение — зафиксировать в Obsidian Vault через MCP `hz-memory-mcp` (`memory_store`) или `hz learn`.
 4. **Синхронизация Планнера (`hz-planner-sync`):** Перевести закрытую задачу в статус `done` через MCP `planner_update_task` / `planner_toggle_status`.
 5. Сделать Git Commit сразу после успеха (`hz commit` по правилу `hz-commit-after-global`).
-6. Предоставить краткий отчёт по факту без лишней теории (`hz-brief-responses`).
+6. **Синхронизация навыков (`hz-skills-sync`):** При любых изменениях скиллов, правил, субагентов или MCP-конфигураций немедленно коммитить и пушить в `git@github.com:hzpunk/hz-skills.git`.
+7. Предоставить краткий отчёт по факту без лишней теории (`hz-brief-responses`).
