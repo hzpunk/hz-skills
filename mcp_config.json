@@ -7,6 +7,10 @@
     "hz-memory": {
       "command": "/Users/hzpunk/.local/bin/hz-memory-mcp",
       "args": []
+    },
+    "outwe-docs": {
+      "command": "/Users/hzpunk/.local/bin/outwe-docs-mcp",
+      "args": []
     }
   }
 }
