@@ -19,6 +19,7 @@
 
 | Skill | Description |
 |-------|-------------|
+| `skills/21st-dev` | Master catalog and blueprints for 21st.dev (The NPM for Design Engineers): shadcn-compatible creative components, Apple-grade spring physics, interactive bento grids, glowing borders, dynamic docks, and micro-interactions. Mandatory for frontend work. |
 | `skills/agent-memory` | Long-term episodic and semantic memory system for autonomous AI agents: vector clustering, persistent recall, and state tracking. |
 | `skills/ai-design-system` | High-converting AI landing page architectures: 1-Offer framework, value ladder, trust badges, and psychology-driven section layout. |
 | `skills/apple-motion-design` | Apple WWDC design philosophy: fluid gesture tracking, spatial depth hierarchy, haptic timing, and natural mass-spring mechanics. |
@@ -26,6 +27,7 @@
 | `skills/boardroom` | Use when running the full autonomous end-to-end venture/feature development cycle: PRD hypotheses, CFO unit economics, CLO legal clearance, CTO/Backend architecture, UX/Security audit gate, and CRO/PMM GTM sales execution. Triggers the Autonomous Boardroom pipeline. |
 | `skills/businesman` | Use when validating, grilling, structuring, or scaling any startup, venture, or business idea; when evaluating problem-solution fit, designing cheap experiments/MVP, calculating unit economics (LTV/CAC, Payback, NDR), architecting product lifecycle (stages 0–7) or business lifecycle (phases 1–7), or when the user invokes /businesman. Employs the persona of an infallible veteran of 100,000 successful ventures combining Founder, CPO, CTO, CFO, CLO, CMO, and CRO with 100 empirical business laws and lean-idea-lab. |
 | `skills/chronicle-slides` | Modern scrollytelling presentation blocks: dynamic cards, kinetic typography reveals, interactive pitch-deck storytelling. |
+| `skills/creative-motion-components` | Master encyclopedia and implementation guide for high-end web components, creative layouts, and micro-interactions. Combines 21st.dev, React Bits, Superdesign.dev, UI-Layouts, Magic UI, Aceternity UI, and Motion Primitives. |
 | `skills/deepseek-local` | Complete Russian guide for local DeepSeek-R1 / V3 deployment: Ollama, vLLM, GGUF/AWQ quantization, hardware sizing, and fast inference. |
 | `skills/deeptech-rd` | Use when conducting applied science and deeptech research, commercial R&D scouting, in silico cabinet validation (Pre-TEA), designing killer experiments (TRL 1-7), target costing, techno-economic assessments (TEA), or synchronizing science, engineering, and unit economics across TRL, MRL, and IRL matrices. |
 | `skills/designsystems-tokens` | Production design token architecture: 3-tier token hierarchy (primitive -> semantic -> component), CSS variables, and dark/light modes. |
@@ -55,6 +57,7 @@
 | `skills/patronview-botshield` | Edge defense against scrapers and fake traffic: datacenter ASN blocking, Cloudflare Turnstile, and client-only telemetry isolation. |
 | `skills/planexe` | Autonomous plan execution engine: breaks complex objectives into strictly sequential, verifiable milestones with automated checkpoints. |
 | `skills/pybroker-quant` | Algorithmic trading and quantitative backtesting in Python using PyBroker: ML model integration, walk-forward analysis, and risk metrics. |
+| `skills/reactbits` | Production guide for React Bits (https://reactbits.dev): 100+ animated React/Tailwind/Framer Motion components including kinetic typography (SplitText, BlurText, ShinyText, DecryptedText), physics cards (SpotlightCard, TiltedCard, Magnet), and animated backgrounds (Aurora, Particles, Hyperspeed). Mandatory for frontend work. |
 | `skills/realm-swift` | Modern offline-first mobile data persistence using Realm Swift: reactive @ObservedResults, Swift Concurrency (async/await), schema migrations, and sync. |
 | `skills/recent-design-trends` | Real-time modern aesthetic index: brutalism, glassmorphism, neo-editorial, kinetic typography, and premium digital craft patterns. |
 | `skills/secops-toolkit` | All-in-one offensive security and pentesting toolkit: automated reconnaissance, web vulnerability testing, OSINT, and exploit orchestration. |
