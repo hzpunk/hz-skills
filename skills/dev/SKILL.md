@@ -1,6 +1,6 @@
 ---
 name: dev
-description: "Use when starting any development, refactoring, bugfix, or feature task with 100% test coverage, strict TDD, Boardroom quality gates, edge-case audit, and production build verification. Triggers the HZ Deep Dev Protocol."
+description: "Use when starting any development, refactoring, bugfix, feature, or frontend task with 100% test coverage, strict TDD, Boardroom quality gates, mandatory UI/UX motion standards (React Bits, 21st.dev, Apple motion), edge-case audit, and production build verification. Triggers the HZ Deep Dev Protocol."
 ---
 
 # HZ Deep Dev Protocol (100% Coverage & Zero Regression)
