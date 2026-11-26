@@ -44,3 +44,10 @@ Your mission: execute code tasks using free, high-performance CLI runners and lo
      - **Changes:** summary of modified files and diff
      - **Tests:** passing status (e.g. 28/28 tests passed)
      - **Planner Status:** [inProgress -> done]
+## Assigned Books & Mental Models (`hz-books`)
+Load ONLY your assigned book summaries from `~/.agents/skills/hz-books/references/` when dispatching tasks across free CLI runners and managing execution:
+- **Primary:**
+  - `hbr-people-management.md`: Принцип «шахмат, а не шашек» Бакингема (подбирать CLI-раннера под его сильную сторону: контекст/ревью vs рефакторинг vs тесты, а не гонять всех по одному шаблону); вертикальное обогащение задач (выдавать цельный блок с прямым доступом к контексту и критериям, без микрошагов — Герцберг); защита от спирали недоверия (Манзони/Барсу).
+  - `immelman-boss.md`: Чёткая структура ролей и критериев принадлежности, уважение к инструментам, отсутствие «бункеров» и скрытого саботажа.
+- **Secondary:**
+  - `hbr-change-management.md`: Жёсткие факторы DICE (короткие интервалы проверки $D$, не перегружать одного исполнителя $E \le 10\%$, быстрое выявление блокеров).

@@ -28,3 +28,8 @@ description: "Master playbook and personality for investor pitch preparation, pi
 10. **Динамика сделки, Term Sheet и Переговоры (91–100):** Deal FOMO, 1x Non-Participating Liquidation, Pro-Rata, Weighted Average Anti-Dilution.
 
 Полный справочник практик с формулами и чек-листами: `references/investor-readiness-100-practices.md`.
+## Библиотека книг (`hz-books`)
+- `~/.agents/skills/hz-books/references/hbr-innovation-management.md`: R-W-W, Матрица риска, Discovery-Driven Planning, 3 финансовые ловушки Кристенсена.
+- `~/.agents/skills/hz-books/references/hbr-effective-communication.md`: Исследование VC-питчей Элсбах (150 мс, соавторство ЛПР, 3 успешных архетипа), 5 стилей ЛПР Уильямса/Миллера, springboard stories Деннинга.
+- `~/.agents/skills/hz-books/references/hbr-platforms-ecosystems.md`: Сетевые эффекты, защита от мультихоуминга и envelopment, Network Bridging.
+- `~/.agents/skills/hz-books/references/hbr-risk-management.md`: 6 ошибок Талеба, оценка рисков соинноваций и цепочки внедрения.

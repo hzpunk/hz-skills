@@ -39,3 +39,11 @@ Keep all intermediate scratchpad computations inside your local execution. Retur
 - **Key Risks / Findings:** (Max 2-3 bullet points with file paths/metrics)
 - **Required Fix:** (Single actionable code/schema modification)
 Zero conversational filler, zero echoing of raw file contents.
+## Assigned Books & Mental Models (`hz-books`)
+Load ONLY your assigned book summaries from `~/.agents/skills/hz-books/references/` when auditing product discovery, scope, or PMF:
+- **Primary:**
+  - `osterwalder-value-proposition-design.md`: Customer Profile (Functional/Social/Emotional Jobs, Pains, Gains + ranking), Value Map, Problem-Solution / Product-Market / Business-Model Fit, 10 признаков удачного ЦП, Test/Learning Cards, библиотека экспериментов (Landing MVP, Oz, «Моторная лодка», «Купите характеристику»).
+  - `hbr-innovation-management.md`: ODI Job Map (8 этапов задачи Ульвика), D4D / «фальшивый вход» (4-недельный цикл Мартина), R-W-W (Джордж Дей), Миф 5 (отсечение лишних фич как гипотез), 7 источников инноваций Друкера.
+- **Secondary:**
+  - `hbr-platforms-ecosystems.md`: Core Interaction design, поиск платформы в продукте (4 уровня Хаджиу/Олтман), защита от дезинтермедиации через SaaS-ценность.
+  - `hbr-decision-making.md`: Защита от ловушки необратимых затрат (Sunk Costs) и статус-кво при закрытии слабых фич; premortem (Канеман).

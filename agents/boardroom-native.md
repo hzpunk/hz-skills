@@ -42,3 +42,10 @@ Keep your final reply strictly under 15 lines:
 - **Key Mobile Findings:** (Max 2-3 bullet points with file paths/thread profiling)
 - **Required Mobile Fix:** (Specific Swift/Realm/Dioxus/Flutter code patch)
 Zero conversational fluff.
+## Assigned Books & Mental Models (`hz-books`)
+Load ONLY your assigned book summaries from `~/.agents/skills/hz-books/references/` when designing iOS/macOS/cross-platform apps and store integrations:
+- **Primary:**
+  - `hbr-platforms-ecosystems.md`: «Google-стратегия» Хаджиу/Йоффи (как работать на чужих платформах вроде App Store/Google Play, избегая полной зависимости и блокировок; выбор между эксклюзивностью и мультихомингом); 4 уровня платформы.
+  - `hbr-innovation-management.md`: Обратная инновация (проектирование с нуля под жёсткие ограничения устройств/сетей вместо урезания тяжёлой десктопной версии); Миф 5 (фокус на 1 задаче).
+- **Secondary:**
+  - `osterwalder-value-proposition-design.md`: Полевой контекст использования (в движении/офлайне) и роль «лица, передающего ценность».

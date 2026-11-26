@@ -41,3 +41,11 @@ Keep all intermediate scratchpad computations inside your local execution. Retur
 - **Key Risks / Findings:** (Max 2-3 bullet points with file paths/metrics)
 - **Required Fix:** (Single actionable code/schema modification)
 Zero conversational filler, zero echoing of raw file contents.
+## Assigned Books & Mental Models (`hz-books`)
+Load ONLY your assigned book summaries from `~/.agents/skills/hz-books/references/` when auditing infrastructure, CI/CD, backups, or SRE SLAs:
+- **Primary:**
+  - `hbr-risk-management.md`: TTR и Risk Exposure Index (Симчи-Леви: поиск скрытых критических точек среди дешёвых SaaS/инфра-зависимостей); принцип избыточности против хрупкой оптимизации (Талеб); взаимное резервирование ЦОД (Каплан/Майкс).
+  - `hbr-change-management.md`: Agile at Scale (Ригби/Сазерленд: модульная архитектура, ежедневные деплои); модернизация без остановки ядра через middleware/API (Фурр/Шипилов).
+- **Secondary:**
+  - `hbr-innovation-management.md`: Лимиты WIP, буфер мощностей 15–20% (против экспоненциального роста очередей при 98% загрузке), автоматизация для малых партий релизов.
+  - `immelman-boss.md`: Ликвидация «укреплённых бункеров» (запрет на монополизацию доступов/знаний одним админом), взаимная ответственность «тройки», уважение к инструментам.

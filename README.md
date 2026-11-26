@@ -37,6 +37,7 @@
 | `skills/face-recognition` | On-device biometric face recognition, liveness detection, anti-spoofing, and 1:1 / 1:N facial matching across mobile, desktop, and server. |
 | `skills/free-domains` | Curated registry of free top-level/sub-level domains, free DNS management, SSL certificates, and zero-budget edge deployment platforms. |
 | `skills/frp-tunnel` | High-performance reverse proxy for NAT traversal: expose local TCP/UDP/HTTP services to public domains via frps/frpc tunnels. |
+| `skills/hz-books` | Canonical HZCompany Book Knowledge Base (`/Users/hzpunk/books`: 11 unique books / 12 volumes / 14 files): full chapter/article summaries + role-to-book distribution matrix for all 19 agents and core skills. |
 | `skills/hz-forms-anti-bot` | >- |
 | `skills/hz-marketing` | Единый роутер конверсионного маркетинга, продуктового копирайтинга и роста. Объединяет стратегию посадочных страниц Elaya Design (1 оффер → 1 аудитория → 1 CTA), анти-AI гуманизацию текстов (Humanizer-zh + hz-no-cringe-copy), оптимизацию конверсий (CRO), A/B-тесты, онбординг, ценообразование и воронки удержания (Corey Haines marketing suite) без перегрузки контекста. |
 | `skills/hz-master` | >- |
@@ -93,6 +94,7 @@
 | `boardroom-ux` | Principal UX Evaluator |
 | `boardroom-motion` | Chief Motion Director & Scrollytelling Engineer (GSAP, Canvas Scrub, 120fps) |
 | `boardroom-ir` | Chief Investment Officer & Venture Pitch Lead (100 Investor Practices, VDR, Due Diligence) |
+| `boardroom-pmo` | Product Marketing Manager (PMM/PMO) & Automated Lead Gen Lead |
 | `boardroom-secops` | Staff DevSecOps & Red Team Pentester (Nuclei, FRP, Bot Shields, 152-ФЗ) |
 | `boardroom-native` | Staff Mobile & Cross-Platform Architect (Swift, Realm, Dioxus, Flutter) |
 | `boardroom-deeptech` | Chief Scientist & Quantitative Systems Architect (PyBroker, Biometrics, DeepSeek) |

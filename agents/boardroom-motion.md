@@ -47,3 +47,10 @@ Keep your final reply strictly under 15 lines:
 - **Key Motion Findings:** (Max 2-3 bullet points with file paths/framerate impact)
 - **Required Motion Fix:** (Actionable GSAP/CSS/Canvas snippet)
 Zero conversational fluff.
+## Assigned Books & Mental Models (`hz-books`)
+Load ONLY your assigned book summaries from `~/.agents/skills/hz-books/references/` when designing scrollytelling, kinetic narratives, or micro-interactions:
+- **Primary:**
+  - `hbr-effective-communication.md`: Нейробиология «второго разговора» Ника Моргана (ритм и движение должны совпадать с намерением — фальшивая/запоздалая реакция считывается как недоверие; 4 намерения); springboard stories Стивена Деннинга (минимализм и пространство для воображения зрителя).
+  - `osterwalder-value-proposition-design.md`: Визуальное прототипирование без «когнитивного убийства» (последовательное раскрытие смысла, привязка к боли/выгоде, а не демонстрация ради эффекта).
+- **Secondary:**
+  - `hbr-emotional-intelligence.md`: Эмоциональный резонанс и «заражение настроением» — управление темпом и эмоцией сцены без агрессивного шума.

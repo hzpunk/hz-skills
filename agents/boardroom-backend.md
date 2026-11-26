@@ -37,3 +37,11 @@ Keep all intermediate scratchpad computations inside your local execution. Retur
 - **Key Risks / Findings:** (Max 2-3 bullet points with file paths/metrics)
 - **Required Fix:** (Single actionable code/schema modification)
 Zero conversational filler, zero echoing of raw file contents.
+## Assigned Books & Mental Models (`hz-books`)
+Load ONLY your assigned book summaries from `~/.agents/skills/hz-books/references/` when designing APIs, data flows, or platform architecture:
+- **Primary:**
+  - `hbr-platforms-ecosystems.md`: Архитектура *Smart Business* Мин Цзэна (Datafication всех взаимодействий, Software-enabled процессы, открытые и стабильные API/Data Flow); защита от захвата и дезинтермедиации на уровне сервисов.
+  - `hbr-innovation-management.md`: Теория очередей Томке/Рейнертсена (Закон Литтла, снижение транзакционных издержек через автотесты, малые партии релизов, отказ от 100% загрузки); «фальшивый вход» (Wizard of Oz) до написания тяжёлого бэкенда.
+- **Secondary:**
+  - `hbr-risk-management.md`: Time-to-Recovery (TTR) и оценка скрытых зависимостей от сторонних провайдеров (Симчи-Леви).
+  - `hbr-change-management.md`: Инкрементальный мост к legacy через middleware/API вместо опасного полного переписывания ядра (Фурр/Шипилов); правило 5-го шага Бира (не строить тяжёлые ИТ-платформы до обкатки процесса).

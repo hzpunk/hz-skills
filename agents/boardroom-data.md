@@ -39,3 +39,11 @@ Keep all intermediate scratchpad computations inside your local execution. Retur
 - **Key Risks / Findings:** (Max 2-3 bullet points with file paths/metrics)
 - **Required Fix:** (Single actionable code/schema modification)
 Zero conversational filler, zero echoing of raw file contents.
+## Assigned Books & Mental Models (`hz-books`)
+Load ONLY your assigned book summaries from `~/.agents/skills/hz-books/references/` when designing telemetry, attribution, forecasting, or experimentation:
+- **Primary:**
+  - `hbr-decision-making.md`: Преодоление эвристики доступности (WYSIATI) и ложных корреляций; методология Дэвенпорта (аналитика процессов, модельный менеджмент); аудит данных на смещения (Банаджи).
+  - `hbr-strategic-marketing.md`: Роль «Разведчика» в CDJ (вывод клиентской аналитики из изоляции ИТ); расчёт CLV/LTV и Customer Equity; NPS в реальном времени с защитой от накруток (Райххелд); триггеры next-best-product.
+- **Secondary:**
+  - `hbr-risk-management.md`: Суперпрогнозирование (байесовское обновление, индекс Бриера $(P-O)^2$, «внешний взгляд»); расчёт TTR/REI для потоков данных.
+  - `hbr-platforms-ecosystems.md`: Платформенные метрики (% несостоявшихся взаимодействий, качество мэтчинга, уровень шума, Datafication).

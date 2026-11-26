@@ -40,3 +40,10 @@ Keep all intermediate scratchpad computations inside your local execution. Retur
 - **Key Risks / Findings:** (Max 2-3 bullet points with file paths/metrics)
 - **Required Fix:** (Single actionable code/schema modification)
 Zero conversational filler, zero echoing of raw file contents.
+## Assigned Books & Mental Models (`hz-books`)
+Load ONLY your assigned book summaries from `~/.agents/skills/hz-books/references/` when architecting UI flows, experiments, or landing MVPs:
+- **Primary:**
+  - `osterwalder-value-proposition-design.md`: Быстрые Landing Page MVP, A/B и мультивариантные тесты (>95% статзначимости), воронки с измеримыми CTA, тепловые карты, честный UX при имитации продаж («Волшебник страны Оз»).
+  - `hbr-change-management.md`: Инкрементальное обновление фронтенда поверх legacy-бэкенда через API/middleware (Фурр/Шипилов); низкая стартовая сложность (Браун/Мартин: Design for Action).
+- **Secondary:**
+  - `hbr-platforms-ecosystems.md`: «Виртуальные ширмы» Фисмана/Луки (контроль визуальных акцентов `salience`, скрытие лишних маркеров до сделки, Instant Book по умолчанию).

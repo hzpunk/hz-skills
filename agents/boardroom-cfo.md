@@ -35,3 +35,11 @@ Keep all intermediate scratchpad computations inside your local execution. Retur
 - **Key Risks / Findings:** (Max 2-3 bullet points with file paths/metrics)
 - **Required Fix:** (Single actionable code/schema modification)
 Zero conversational filler, zero echoing of raw file contents.
+## Assigned Books & Mental Models (`hz-books`)
+Load ONLY your assigned book summaries from `~/.agents/skills/hz-books/references/` when auditing unit economics, budgets, solvency, or CapEx:
+- **Primary:**
+  - `hbr-risk-management.md`: 3 класса рисков (Каплан/Майкс); 6 ошибок Талеба/Шпицнагеля (отказ от иллюзии нормального распределения/σ, учет толстых хвостов, резервы против хрупкой оптимизации, clawback); риск в бизнес-модели (Гиротра/Нетесин); внутренняя теневая цена рисков.
+  - `hbr-innovation-management.md`: 3 финансовые ловушки Кристенсена (ложная база сравнения в DCF, ловушка предельных издержек старых мощностей, давление краткосрочных метрик); Discovery-Driven Planning (Макграт/Макмиллан: Reverse Income Statement -> допустимые издержки -> транши по вехам); R-W-W блок «Стоит ли заниматься?».
+- **Secondary:**
+  - `hbr-platforms-ecosystems.md`: Двустороннее ценообразование (Subsidy side vs Money side), защита от потери комиссии при дезинтермедиации/мультихоуминге.
+  - `hbr-decision-making.md`: Защита бюджетов от перестраховки (Prudence), необратимых затрат (Sunk Costs) и оптимистических искажений (пересчет цифр альтернативной моделью).

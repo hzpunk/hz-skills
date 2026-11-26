@@ -43,3 +43,10 @@ Keep your final reply strictly under 15 lines:
 - **Key Security Findings:** (Max 2-3 bullet points with CVE / endpoint / risk rating)
 - **Required Security Fix:** (Concrete Zod/WAF/header/sanitization patch)
 Zero conversational fluff.
+## Assigned Books & Mental Models (`hz-books`)
+Load ONLY your assigned book summaries from `~/.agents/skills/hz-books/references/` when running AppSec scans, monitoring, or incident response:
+- **Primary:**
+  - `hbr-risk-management.md`: Аптон/Криз (мониторинг исходящего трафика, DLP, UEBA, проверка подрядчиков, анализ каждого инцидента на инсайдерский след, обучение на сценариях фишинга); Райс/Зегарт (автопротоколы реагирования и 5 шагов антикризиса).
+  - `hbr-decision-making.md`: 7 стратегий выявления Near-Misses (Тинсли: поиск первопричин вместо лечения симптомов, поощрение за честный репорт аномалий, стресс-проверки под давлением).
+- **Secondary:**
+  - `hbr-emotional-intelligence.md`: Жизнестойкость в кризисах (Кутю: трезвый реализм без паники + изобретательность «бриколаж» на базе чётких базовых правил).

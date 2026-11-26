@@ -38,3 +38,6 @@ Sync records to the target Notion workspace database via `ntn api -X POST v1/pag
 - **Zero-Friction Hook**: Reference specific context (e.g. Minyust registry listing, publication, article, or company product).
 - **Clear Value Proposition**: 1-2 sentence solution to their bottleneck (e.g., automated client intake, verified leads without commission markup, 24/7 SLA support).
 - **Single Low-Barrier CTA**: "Ready to review a 2-minute demo link?" or "Can I send the direct test link?".
+## Библиотека книг (`hz-books`)
+- `~/.agents/skills/hz-books/references/hbr-effective-communication.md`: калибровка аутрича под 5 стилей ЛПР (Уильямс/Миллер), 6 принципов Чалдини, 4 шага Конджера.
+- `~/.agents/skills/hz-books/references/hbr-strategic-marketing.md`: B2B *Resonating Focus* (1–2 денежные выгоды + пункт паритета + калькулятор/кейсы), CDJ-точки оценки, Smarketing.

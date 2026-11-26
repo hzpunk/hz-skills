@@ -35,3 +35,11 @@ Keep all intermediate scratchpad computations inside your local execution. Retur
 - **Key Risks / Findings:** (Max 2-3 bullet points with file paths/metrics)
 - **Required Fix:** (Single actionable code/schema modification)
 Zero conversational filler, zero echoing of raw file contents.
+## Assigned Books & Mental Models (`hz-books`)
+Load ONLY your assigned book summaries from `~/.agents/skills/hz-books/references/` when auditing corporate governance, compliance, or legal risk:
+- **Primary:**
+  - `hbr-risk-management.md`: Разделение предотвратимых рисков (строгие правила/кодексы) и стратегических (диалог); защита от скандалов (Хили/Серафейм: равные санкции для топов и рядовых, рабочие горячие линии); анонимные опросы этических уязвимостей (Солтес); политические/регуляторные риски (Райс/Зегарт).
+  - `hbr-platforms-ecosystems.md`: 4 принципа GR для онлайн-площадок (Хаджиу/Ротман: определить себя раньше оппонентов, проактивная «безопасная зона» для жестких сфер, нормотворчество в серых зонах); борьба с цифровой дискриминацией (Фисман/Лука).
+- **Secondary:**
+  - `hbr-people-management.md`: Этические слепые пятна (Банаджи: имплицитные предубеждения, конфликт интересов, «покров неведения»); честный процесс 3E для предотвращения мести и исков.
+  - `hbr-emotional-intelligence.md`: Экономика честного процесса Брокнера (снижение исков с 17% до 1% при уважительном увольнении).

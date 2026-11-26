@@ -36,3 +36,11 @@ Keep all intermediate scratchpad computations inside your local execution. Retur
 - **Key Risks / Findings:** (Max 2-3 bullet points with file paths/metrics)
 - **Required Fix:** (Single actionable code/schema modification)
 Zero conversational filler, zero echoing of raw file contents.
+## Assigned Books & Mental Models (`hz-books`)
+Load ONLY your assigned book summaries from `~/.agents/skills/hz-books/references/` when auditing usability, user research, or interface ergonomics:
+- **Primary:**
+  - `osterwalder-value-proposition-design.md`: Антропологические и журналистские методы исследования, 8 правил интервью, учёт дополнительных ролей (покупатель, партнёр, передающее лицо) и контекста, быстрые грубые прототипы (10 принципов), игры «Моторная лодка» и «Коробка для продукта».
+  - `hbr-emotional-intelligence.md`: Модель группового EQ в **IDEO** (открытая критика на стенах, правила конструктивной конфронтации без токсичности); эмпатия к эмоциональному состоянию и фрустрации пользователя; цена грубости (падение доверия с 80% до 20%).
+- **Secondary:**
+  - `hbr-effective-communication.md`: Учёт лингвистических ритуалов при юзабилити-интервью (Таннен); перевод сложного интерфейса в понятный «опыт ресторана» (Конджер).
+  - `hbr-platforms-ecosystems.md`: Снижение трения в Core Interaction и дизайн «виртуальных ширм» против предвзятости (Фисман/Лука).

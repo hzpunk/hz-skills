@@ -63,3 +63,9 @@ description: "Единая мастер-команда сквозного кон
 3. `boardroom-ir` автоматически генерирует ежемесячный дайджест для инвесторов (`docs/boardroom/INVESTOR-UPDATE.md`): Highlights, Lowlights, KPIs (ARR, Burn, Runway, MoM), Asks по Практике №99.
 4. Рутинные задачи верстки и юнит-тестов параллельно делегируются бесплатным CLI-раннерам (`cli-orchestrator`), экономя платные токены.
 5. Google Jules в ночном контуре CI/CD подхватывает тикеты с меткой `jules`.
+## Библиотека книг (`hz-books`)
+Полная матрица знаний сквозного конвейера венчура — `~/.agents/skills/hz-books/SKILL.md`:
+- Идея и ЦП: `osterwalder-value-proposition-design.md`, `hbr-innovation-management.md`.
+- Маркетинг, продажи и питчи: `hbr-strategic-marketing.md`, `hbr-effective-communication.md`.
+- Платформа, финансы и риски: `hbr-platforms-ecosystems.md`, `hbr-risk-management.md`, `hbr-decision-making.md`.
+- Команда, изменения и лидерство: `immelman-boss.md`, `hbr-people-management.md`, `hbr-change-management.md`, `hbr-emotional-intelligence.md`.

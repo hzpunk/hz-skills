@@ -1,5 +1,11 @@
 # HZ Skills — Changelog
 
+## v1.5.0 (2026-11-27)
+### Added
+- `skills/hz-books`: Canonical knowledge base extracted from `/Users/hzpunk/books` (11 unique books / 12 volumes / 14 files) with 11 full chapter-by-chapter / article-by-article Markdown summaries in `skills/hz-books/references/`.
+- Distributed assigned books & mental models across all 19 agents (`agents/boardroom-*.md`, `agents/cli-orchestrator.md`) and 8 core skills (`businesman`, `boardroom`, `hz-marketing`, `investor-readiness`, `venture`, `pmo-leadgen`, `text-humanizer`, `hz-master`).
+- Registered `skills/hz-books` and `agents/boardroom-pmo.md` in `plugin.json`.
+
 ## v1.1.0 (2026-10-22)
 ### Added
 - Rules #10–#15 added to global GEMINI.md and autonomous-dev-engine.md:

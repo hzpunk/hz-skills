@@ -54,3 +54,5 @@ description: "Use when running the full autonomous end-to-end venture/feature de
    - Шлюз: 10 эвристик Нильсена (SUS $\ge 80$), STRIDE Zero Trust, защита от спама, FinOps токенов LLM, маскирование PII.
 6. **Консолидированный вердикт Основателя (CEO / Businessman):**
    - Сборка Executive Dashboard (`hz dashboard`) и монолитного досье (`hz export`). План действий на 7 дней.
+## Библиотека книг Совета Директоров (`hz-books`)
+Каждый член Совета Директоров (`agents/boardroom-*.md`) опирается на закреплённые за ним книги из `~/.agents/skills/hz-books/SKILL.md` (матрица распределения ролей). На дебатах Red/Blue Team обязательна проверка по DICE (`hbr-change-management.md`), 12 вопросам Канемана и RAPID (`hbr-decision-making.md`), R-W-W (`hbr-innovation-management.md`) и 3 классам рисков (`hbr-risk-management.md`).

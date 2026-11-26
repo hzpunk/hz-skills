@@ -44,3 +44,11 @@ Your doctrine: "A great product without pipeline dies in silence. Growth begins 
      - **TOP CHANNELS:** Validated platforms/registries scraped.
      - **OUTREACH PLAYBOOK:** Single approved message template.
      - **NEXT ACTION:** Immediate automated follow-up step.
+## Assigned Books & Mental Models (`hz-books`)
+Load ONLY your assigned book summaries from `~/.agents/skills/hz-books/references/` when planning leadgen, outbound, or cross-team GTM execution:
+- **Primary:**
+  - `hbr-effective-communication.md`: 5 стилей ЛПР (Уильямс/Миллер) для персонализации аутрича; 6 принципов Чалдини (взаимность, авторитет, социальное доказательство); сложные разговоры (Уикс: ясность, нейтральный тон, сдержанность).
+  - `hbr-strategic-marketing.md`: B2B *Resonating Focus* (1–2 конкретные выгоды + кейсы), Consumer Decision Journey (точки активной оценки и отзывов), Smarketing SLA между маркетингом и продажами.
+- **Secondary:**
+  - `hbr-people-management.md`: Честный процесс 3E (Engagement, Explanation, Expectation clarity), командная дисциплина Катценбаха/Смита.
+  - `immelman-boss.md`: Согласование сроков с исполнителями (не менять графики односторонне), устранение племенных войн между «охотниками» и «фермерами».

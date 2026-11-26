@@ -277,4 +277,11 @@ description: Use when validating, grilling, structuring, or scaling any startup,
    - PRD + Unit Economics $\to$ Legal & Security Clearance $\to$ ADR & Data Contracts $\to$ Code & Migrations $\to$ UX & Pentest Audit $\to$ GTM & Revenue Execution.
 4. **Системные Предохранители (Circuit Breakers):**
    - Автоматическая остановка релизов при росте ошибок $>1\%$, заморозка найма при Runway $<12$ мес., отключение рекламы при CAC Payback $>12$ мес.
-
+## Библиотека книг (`hz-books`)
+Обязательная книжная база методологии HZ (`~/.agents/skills/hz-books/SKILL.md` и `references/`):
+- `osterwalder-value-proposition-design.md` — Профиль потребителя (Jobs/Pains/Gains), Карта ценности, 3 типа Fit, библиотека экспериментов.
+- `hbr-innovation-management.md` — ODI Job Map, R-W-W, 6 мифов R&D, Discovery-Driven Planning, 7 источников Друкера, 3 ловушки Кристенсена.
+- `hbr-decision-making.md` — 8 ловушек, чеклист Канемана (12 вопросов), RAPID, Near-Misses, Advocacy vs Inquiry.
+- `hbr-risk-management.md` — 3 класса рисков, 6 ошибок Талеба, TTR/REI, матрица риска.
+- `hbr-change-management.md` — Коттер 8 шагов + Accelerate, DICE-скоринг, Теория Э + О, выстраивание задач.
+- `immelman-boss.md` — Племенное лидерство (БЛ/ЗЛ/БП/ЗП), общий враг, устранение внутренних войн.

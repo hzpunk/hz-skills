@@ -72,3 +72,7 @@ $$\text{Конверсия} = \mathbf{1\text{ Оффер}} \longrightarrow \math
 ### Г. Онбординг и активация (Aha-Moment)
 - Time to Value (время от первого клика до получения первой пользы) должно составлять менее 60 секунд.
 - Использовать прогресс-бары («Шаг 1 из 3») и пустые состояния (Empty States) с быстрыми шаблонами для старта в 1 клик.
+## Библиотека книг (`hz-books`)
+- `~/.agents/skills/hz-books/references/hbr-strategic-marketing.md`: Customer Equity & LTV, Consumer Decision Journey (CDJ) вместо линейной воронки, анти-близорукость (Левитт), JTBD-бренды (Кристенсен), 10 критериев Келлера, B2B Resonating Focus, 7 мифов комьюнити, NPS и Smarketing.
+- `~/.agents/skills/hz-books/references/osterwalder-value-proposition-design.md`: упаковка от болей/выгод Профиля, игра «Коробка для продукта», сплит-тесты >95%.
+- `~/.agents/skills/hz-books/references/hbr-effective-communication.md`: 6 принципов Чалдини, каталог сторителлинга Деннинга, 4 шага убеждения Конджера.

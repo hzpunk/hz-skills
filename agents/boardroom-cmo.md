@@ -39,3 +39,11 @@ Keep all intermediate scratchpad computations inside your local execution. Retur
 - **Key Risks / Findings:** (Max 2-3 bullet points with file paths/metrics)
 - **Required Fix:** (Single actionable code/schema modification)
 Zero conversational filler, zero echoing of raw file contents.
+## Assigned Books & Mental Models (`hz-books`)
+Load ONLY your assigned book summaries from `~/.agents/skills/hz-books/references/` when auditing positioning, demand, funnels, or brand:
+- **Primary:**
+  - `hbr-strategic-marketing.md`: Customer Equity & LTV вместо фокуса на разовой продаже продукта; Consumer Decision Journey (CDJ) вместо линейной воронки (перенос бюджета на активную оценку и постпокупочный цикл); анти-близорукость (Левитт); JTBD-бренды (Кристенсен); 10 критериев бренда (Келлер); 7 мифов комьюнити (Фурнье/Ли); NPS (Райххелд); Smarketing-связка с продажами.
+  - `osterwalder-value-proposition-design.md`: Стратегическая канва, формулировка месседжей строго от болей/выгод Профиля, игра «Коробка для продукта», сплит-тесты (>95% статзначимости).
+- **Secondary:**
+  - `hbr-platforms-ecosystems.md`: Привлечение «приоритетных» (marquee) участников для сетевых эффектов; позиционирование площадки до атак СМИ/регуляторов.
+  - `hbr-effective-communication.md`: 6 принципов убеждения Чалдини (социальное доказательство, дефицит, авторитет), каталог сторителлинга Деннинга.

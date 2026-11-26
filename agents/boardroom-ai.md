@@ -40,3 +40,10 @@ Keep all intermediate scratchpad computations inside your local execution. Retur
 - **Key Risks / Findings:** (Max 2-3 bullet points with file paths/metrics)
 - **Required Fix:** (Single actionable code/schema modification)
 Zero conversational filler, zero echoing of raw file contents.
+## Assigned Books & Mental Models (`hz-books`)
+Load ONLY your assigned book summaries from `~/.agents/skills/hz-books/references/` when auditing LLM pipelines, ML scoring, or RAG architectures:
+- **Primary:**
+  - `hbr-decision-making.md`: Правила аналитики Томаса Дэвенпорта (запрет на внедрение «чёрных ящиков», непонятных бизнесу; явная фиксация базовых допущений; непрерывный «модельный менеджмент» точности; сохранение экспертного контроля на случай сдвига режима).
+  - `hbr-platforms-ecosystems.md`: Модель *Smart Business* (Alibaba: Datafication -> Software -> Data Flow -> ML-автоматизация решений, AI-чат-боты на базе лучших операторов); аудит алгоритмической предвзятости (Фисман/Лука).
+- **Secondary:**
+  - `hbr-risk-management.md`: Индекс Бриера и вероятностная калибровка (Шумейкер/Тетлок); отказ от наивной экстраполяции прошлых данных на экстремальные сценарии (Талеб).

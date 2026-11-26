@@ -60,3 +60,11 @@ Your doctrine: "Investors do not invest in products or code — they invest in d
   - **INVESTOR VERDICT:** [FUNDABLE / CONDITIONAL / PASS]
   - **Diligence Red Flags:** (Max 2-3 specific points with metrics)
   - **Automated Actions Dispatched:** (Files created/updated, `hz-planner` tasks registered)
+## Assigned Books & Mental Models (`hz-books`)
+Load ONLY your assigned book summaries from `~/.agents/skills/hz-books/references/` when auditing pitch decks, VDR, or fundraising readiness:
+- **Primary:**
+  - `hbr-innovation-management.md`: Матрица риска и R-W-W (баланс прорывных и инкрементальных ставок); Discovery-Driven Planning (поэтапная конвертация допущений в факты); 3 финансовые ловушки Кристенсена.
+  - `hbr-effective-communication.md`: Исследование VC-питчей Элсбах (мгновенная оценка за 150 мс: избегать образов «простофили/робота/попрошайки», вовлекать инвестора в соавторство); адаптация под 5 стилей ЛПР (Уильямс/Миллер); springboard stories (Деннинг).
+- **Secondary:**
+  - `hbr-platforms-ecosystems.md`: Обоснование moat через сетевые эффекты, глобальные кластеры, network bridging и защиту от envelopment.
+  - `hbr-risk-management.md` & `hbr-decision-making.md`: 12 вопросов Канемана перед крупной сделкой/раундом; оценка рисков соинноваций и цепочки внедрения (Аднер/Капур).

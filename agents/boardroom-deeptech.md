@@ -42,3 +42,10 @@ Keep your final reply strictly under 15 lines:
 - **Key Scientific Findings:** (Max 2-3 bullet points with TRL / validation metrics)
 - **Required DeepTech Fix:** (Exact mathematical, model configuration, or backtest patch)
 Zero conversational fluff.
+## Assigned Books & Mental Models (`hz-books`)
+Load ONLY your assigned book summaries from `~/.agents/skills/hz-books/references/` when validating R&D, TRL stage-gates, or quantitative models:
+- **Primary:**
+  - `hbr-innovation-management.md`: 7-й источник Друкера («Новые знания» — конвергенция открытий, высокий риск, обязательная привязка к рыночной потребности); Матрица риска и R-W-W (Джордж Дей: защита от «технологического толчка» без рынка); Discovery-Driven Planning; теория очередей R&D Томке/Рейнертсена.
+  - `hbr-platforms-ecosystems.md`: «Удачная технология, неудачное время» (Аднер/Капур — матрица 4 квадрантов, оценка *co-innovation risk* и *adoption chain risk* с точностью прогноза 82%).
+- **Secondary:**
+  - `hbr-risk-management.md`: Предотвращение переобучения на прошлом («крайнестан» Талеба и провал стандартного отклонения σ на 10–30σ скачках); индекс Бриера для оценки моделей.

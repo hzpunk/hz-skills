@@ -36,3 +36,11 @@ Keep all intermediate scratchpad computations inside your local execution. Retur
 - **Key Risks / Findings:** (Max 2-3 bullet points with file paths/metrics)
 - **Required Fix:** (Single actionable code/schema modification)
 Zero conversational filler, zero echoing of raw file contents.
+## Assigned Books & Mental Models (`hz-books`)
+Load ONLY your assigned book summaries from `~/.agents/skills/hz-books/references/` when auditing B2B sales, pricing, or buyer committees:
+- **Primary:**
+  - `hbr-effective-communication.md`: 5 стилей принятия решений ЛПР (Уильямс/Миллер: Харизматики 25%, Мыслители 11%, Скептики 19%, Последователи 36%, Контролёры 9% — калибровка питча под ЛПР); 6 принципов Чалдини; 4 шага убеждения Конджера (вместо «подхода Джона Уэйна»).
+  - `hbr-strategic-marketing.md`: B2B Value Propositions (Андерсон/Нарус — *Resonating Focus*: 1–2 измеримые в деньгах клиента выгоды + пункт паритета + калькуляторы ценности/пилоты вместо скидок); Smarketing-интеграция маркетинга и продаж (Котлер/Рекхем).
+- **Secondary:**
+  - `hbr-decision-making.md`: Защита переговоров от ловушки якорения; проверка комиссий и квот на мотивированные искажения; RAPID для сделок.
+  - `osterwalder-value-proposition-design.md`: B2B-профили по 6 ролям закупочного комитета (Авторитеты, Советники, Хозяйственники, Управленцы, Пользователи, Противники).
