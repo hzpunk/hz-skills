@@ -54,7 +54,7 @@ Before reporting completion to the user:
 
 ## 10. GitHub Project Governance & Jules Orchestration (`hz-github-project-governance` & `hz-jules-webhook-sentinel`)
 - **Document-to-Task Pipeline:** Automatically decompose PRDs, architecture specs, and UI mockups into structured GitHub Milestones (M1–M5 with hard due dates) and atomic Issues with explicit Definition of Done.
-- **Team Workload Allocation:** Assign each issue to available human contributors (`@hzpunk`, `@VladislavSCV`) or autonomous workers (`@google-jules[bot]`). Maintain zero unassigned or deadline-free tasks.
+- **Team Workload Allocation:** Assign each issue to available human contributors (`@hzpunk`, `@VladislavSCV`, `@tys1g`) or autonomous workers (`@google-jules[bot]`). Maintain zero unassigned or deadline-free tasks.
 - **Reactive Surveillance (Webhook Sentinel):** Monitor repo events sub-second via local webhook hub (`scripts/webhook-receiver.py` + `ngrok http 4567`) hooked to `agentapi send-message`. Never resort to polling loops.
 - **Jules PR Gatekeeping:** Rigorously audit automated PRs from Jules before merging:
   1. Strip accidental secrets, uncommitted local `.env` files, database dumps, and heavy test artifacts (`playwright-report/`).

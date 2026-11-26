@@ -149,4 +149,4 @@ ln -s ~/.gemini/config/plugins/hz-rules-plugin/skills/dev ~/.agents/skills/dev
 
 ## Contributing
 
-This is a private HZ team repository. PRs welcome from `@hzpunk` and `@VladislavSCV`.
+This is a private HZ team repository. PRs welcome from `@hzpunk`, `@VladislavSCV`, and `@tys1g`.
